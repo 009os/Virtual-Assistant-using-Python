@@ -6,7 +6,7 @@ import wikipedia
 import webbrowser as wb
 import os
 import pywhatkit as kit
-#-----------------------------------------------------------COMPUTERS VOICE---------------------------------------------------------------#
+#----------------------------------------------------------COMPUTERS VOICE---------------------------------------------------------------#
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
